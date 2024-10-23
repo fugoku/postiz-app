@@ -4,7 +4,6 @@
 dist
 tmp
 /out-tsc
-.env
 # dependencies
 node_modules
 
@@ -18,7 +17,6 @@ node_modules
 *.sublime-workspace
 
 # IDE - VSCode
-.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -56,3 +54,7 @@ Thumbs.db
 # ignore Secrets folder
 .secrets/
 libraries/plugins/src/plugins.ts
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
